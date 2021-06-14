@@ -8,13 +8,15 @@
 
 // creo oggetto con proprietà: nome, cognome, proprietà
 var studente = {
-    'nome': 'Paperino',
-    'cognome': 'Paolino',
-    'eta': 30
-}
+    nome: 'Paperino',
+    cognome: 'Paolino',
+    eta: 30
+};
 
 // stampare a schermo attraverso un ciclo for-in tutte le proprietà dell'oggetto.
-
+for (var k in studente){
+    console.log(studente[k]);
+};
 
 // Creare un array di oggetti di studenti.
 
