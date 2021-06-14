@@ -15,8 +15,9 @@ var studente = {
 
 // stampare a schermo attraverso un ciclo for-in tutte le proprietà dell'oggetto.
 for (var k in studente){
-    console.log(studente[k]);
-}; //todo stampare con innerHTML
+    // console.log(studente[k]);
+    document.getElementById('studente').innerHTML += studente[k] + ' ';
+}; 
 
 // Creare un array di oggetti di studenti.
 arrayStudenti = [studente];
