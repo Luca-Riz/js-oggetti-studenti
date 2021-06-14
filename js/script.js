@@ -39,8 +39,9 @@ arrayStudenti.push(studente);
 // Ciclare su tutti gli studenti e stampare per ognuno di essi, nome e cognome.
 
 for (var i=0; i<arrayStudenti.length; i++){
-    console.log(arrayStudenti[i].nome);
-    console.log(arrayStudenti[i].cognome);
+    // console.log(arrayStudenti[i].nome);
+    // console.log(arrayStudenti[i].cognome);
+    document.getElementById('listaNoCogn').innerHTML += arrayStudenti[i].nome + ' ' + arrayStudenti[i].cognome + ', ';
 }
 
 // Dare la possibilità all’utente, attraverso 3 prompt(), di aggiungere un nuovo oggetto studente inserendo nell’ordine: nome, cognome e età.
