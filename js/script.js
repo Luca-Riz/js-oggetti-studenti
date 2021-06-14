@@ -16,10 +16,12 @@ var studente = {
 // stampare a schermo attraverso un ciclo for-in tutte le proprietà dell'oggetto.
 for (var k in studente){
     console.log(studente[k]);
-};
+}; //todo stampare con innerHTML
 
 // Creare un array di oggetti di studenti.
+arrayStudenti = [studente];
 
+console.log(arrayStudenti);
 
 // Ciclare su tutti gli studenti e stampare per ognuno di essi, nome e cognome.
 
